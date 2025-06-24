@@ -12,3 +12,23 @@ This project is a **motion and light-based smart LED control system** powered by
 - Logs all LED states with timestamps in `led_log.txt`.
 
 ---
+
+---
+
+## 🧾 Requirements
+
+- Raspberry Pi (with RPi.GPIO library)
+- AWS IoT Core account & Thing setup
+- Python 3.12+
+- AWS IoT certificates
+
+---
+
+## 📥 Installation (100% Copy-Paste Safe)
+
+### 🔧 1. Enable GPIO and Install Required Packages
+
+bash
+sudo apt update
+sudo apt install python3-pip
+pip3 install AWSIoTPythonSDK RPi.GPIO
