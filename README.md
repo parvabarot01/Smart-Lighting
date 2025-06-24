@@ -28,7 +28,7 @@ This project is a **motion and light-based smart LED control system** powered by
 
 ### 🔧 1. Enable GPIO and Install Required Packages
 
-bash
+```bash
 sudo apt update
 sudo apt install python3-pip
 pip3 install AWSIoTPythonSDK RPi.GPIO
