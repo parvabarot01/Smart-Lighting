@@ -32,3 +32,14 @@ This project is a **motion and light-based smart LED control system** powered by
 sudo apt update
 sudo apt install python3-pip
 pip3 install AWSIoTPythonSDK RPi.GPIO
+
+##  2. Clone the Repository and Set Up Certificates
+```bash
+git clone https://github.com/parvabarot01/Smart-Lighting-System.git
+cd Smart-Lighting-System
+
+# Place your AWS IoT certificates here
+mkdir certs
+mv path/to/AmazonRootCA1.pem certs/
+mv path/to/private.key certs/
+mv path/to/device.cert.pem certs/
