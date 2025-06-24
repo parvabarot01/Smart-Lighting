@@ -13,7 +13,7 @@ This project is a **motion and light-based smart LED control system** powered by
 
 ---
 
----
+
 
 ## 🧾 Requirements
 
